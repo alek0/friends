@@ -1,0 +1,14 @@
+<p>hello</p>
+
+<% @friends.each do |friend| %>
+
+
+    <h1>This is my header</h1>
+    <p><%= friend.id %></p>
+    <p><%= friend.created_at %></p>
+    <p><%= friend.updated_at %></p>
+    <p><%= friend.firstName %></p>
+    <p><%= friend.lastName %></p>
+
+
+<% end %>
